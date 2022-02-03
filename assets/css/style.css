@@ -44,7 +44,7 @@ body {
     left: 0%;
 }
 
-    /* Container Position utility */
+    /* Container Position Models*/
 
 
 .abso1{
@@ -56,6 +56,13 @@ body {
     background-size: contain;
 }
 
+
+
+.abso1:hover{
+    background-image: url(./../img/1b.webp);
+    Cursor: pointer;
+}
+
 .abso2{
     position:absolute;
     top:0;
@@ -63,6 +70,11 @@ body {
     background-image: url(./../img/2.webp);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.abso2:hover{
+    background-image: url(./../img/2b.webp);
+    Cursor: pointer;
 }
 
 .abso3{
@@ -74,6 +86,11 @@ body {
     background-size: contain;
 }
 
+.abso3:hover{
+    background-image: url(./../img/3b.webp);
+    Cursor: pointer;
+}
+
 .abso4{
     position:absolute;
     top:51.5%;
@@ -81,6 +98,11 @@ body {
     background-image: url(./../img/4.webp);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.abso4:hover{
+    background-image: url(./../img/4b.webp);
+    Cursor: pointer;
 }
 
 .abso5{
@@ -92,6 +114,11 @@ body {
     background-size: contain;
 }
 
+.abso5:hover{
+    background-image: url(./../img/5b.webp);
+    Cursor: pointer;
+}
+
 .abso6{
     position:absolute;
     top:51.5%;
@@ -101,6 +128,10 @@ body {
     background-size: contain;
 }
 
+.abso6:hover{
+    background-image: url(./../img/6b.webp);
+    Cursor: pointer;
+}
 
 .font1{
     font-weight: bold;
@@ -142,7 +173,7 @@ body {
     display:inline-block;
     background-color: crimson;
     width: 30px;
-    height:15px;
+    height: 10px;
     font-weight: bold;
     color: white;
     font-size: 1em;
@@ -156,7 +187,7 @@ body {
     display:inline-block;
     background-color: green;
     width: 60px;
-    height:15px;
+    height:12px;
     font-weight: bold;
     color: white;
     font-size: 1em;
@@ -170,7 +201,7 @@ body {
     display:inline-block;
     background-color: green;
     width: 60px;
-    height:15px;
+    height:12px;
     font-weight: bold;
     color: white;
     font-size: 1em;
