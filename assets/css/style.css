@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Utility */
+
+  /* Container of clothing */
+.clothing{
+    display:inline-block;
+    background-color:white;
+    width:220px;
+    height:270px;
+    border:1px solid brown;
+}
+
+    /* Position utility */
+
+.rela1{
+        position:relative;
+        top: 10px;
+        left: 330px;
+}
+
+.abso1{
+    position:absolute;
+    top:0;
+    left: 260px;
+}
+
+.abso2{
+    position:absolute;
+    top:0;
+    left: 520px;
+}
